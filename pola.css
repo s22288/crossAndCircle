@@ -1,0 +1,22 @@
+td{
+    background-color: white;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-style: solid;
+
+}
+
+td.cross{
+background-image: url('cross2.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+td.circle{
+    background-image: url('circle.png');
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+}
