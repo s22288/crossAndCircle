@@ -8,23 +8,30 @@
     <link rel="stylesheet" href="pola.css">
   </head>
 <body>
+  <div class="center">
+   
+
     <table>
         <tr>
-          <td  onclick="colorChanger(this)"></td>
-          <td  onclick="colorChanger(this)"></td>
-          <td  onclick="colorChanger(this)"></td>
+          <td id="00"  onclick="colorChanger(this)"></td>
+          <td  id="01" onclick="colorChanger(this)"></td>
+          <td  id="02" onclick="colorChanger(this)"></td>
         </tr>
         <tr>
-          <td  onclick="colorChanger(this)"></td>
-          <td  onclick="colorChanger(this)"></td>
-          <td  onclick="colorChanger(this)"></td>
+          <td  id="10" onclick="colorChanger(this)"></td>
+          <td id="11"  onclick="colorChanger(this)"></td>
+          <td  id="12" onclick="colorChanger(this)"></td>
         </tr>
         <tr>
-          <td  onclick="colorChanger(this)"></td>
-          <td  onclick="colorChanger(this)"></td>
-          <td  onclick="colorChanger(this)"></td>
+          <td  id="20" onclick="colorChanger(this)"></td>
+          <td  id="21" onclick="colorChanger(this)"></td>
+          <td  id="22" onclick="colorChanger(this)"></td>
         </tr>
       </table>
+      <h2 id="winner">zwyciezca jest: </h2>
+      <button onClick="window.location.reload();">Play Again?</button>
+    </div>
+ 
 </body>
 <script src="gameplay.js"></script>
 </html>

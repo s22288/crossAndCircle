@@ -6,7 +6,12 @@ td{
     border-style: solid;
 
 }
-
+.center {
+  margin: auto;
+  width: 20%;
+ 
+  padding: 5px;
+}
 td.cross{
 background-image: url('cross2.png');
 background-repeat: no-repeat;
