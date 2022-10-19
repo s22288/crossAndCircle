@@ -156,6 +156,9 @@ function colorChanger(el){
 
      return;
  }
+
+ 
+ 
  
  game.forEach(function(entry){
     console.log(entry);
